@@ -1,0 +1,33 @@
+section {
+   height: 100vh;
+}
+
+#home {
+   background-color: red;
+}
+
+#about {
+   background-color: blue;
+}
+
+#projects {
+   background-color: red;
+}
+
+#contact {
+   background-color: green;
+}
+
+.navbar {
+   background-color: #1c2a48;
+}
+
+.sticky-nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.active-nav-link {
+   color: red !important;
+}
