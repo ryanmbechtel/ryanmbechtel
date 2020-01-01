@@ -26,8 +26,8 @@ function updateNavbar() {
   navLinks.forEach(link => {
   	let section = document.querySelector(link.hash);
   	if (
-      section.offsetTop <= curPos &&
-      section.offsetTop + section.offsetHeight > curPos
+      section.offsetTop < curPos &&
+      section.offsetTop + section.offsetHeight >= curPos
     ) {
       link.classList.add("active-nav-link");
     } else {

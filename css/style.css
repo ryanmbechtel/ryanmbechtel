@@ -1,13 +1,13 @@
 section {
-   height: 100vh;
+   height: 109vh;
 }
 
 #home {
-   background-color: red;
+   background-color: #1c2a48;
 }
 
 #about {
-   background-color: blue;
+   background-color: #e6e6e6;
 }
 
 #projects {
@@ -31,3 +31,43 @@ section {
 .active-nav-link {
    color: red !important;
 }
+
+#particles-js {
+   height: 100%;
+   width:100%;
+   z-index:-10;
+}
+
+.home-header-container {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   width: 100%;
+}
+
+.home-header {
+   color: #fff;
+   font-style: "Roboto";
+   font-size: 60px;
+}
+
+.home-header-name {
+   color: #e6005c;
+}
+
+
+.home-header-button {
+  padding: 10px 20px;
+  border: 2px solid #fff;
+  box-sizing: inherit;
+  display: inline-block;
+  font-size: 13pt;
+  transition: all .5s;
+  cursor: pointer; 
+}
+
+.home-header-button:hover {
+    background-color: #04C2C9;
+    border-color: #04C2C9; 
+ }
