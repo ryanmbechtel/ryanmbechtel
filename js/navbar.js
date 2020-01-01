@@ -14,6 +14,12 @@ var navLinks = document.querySelectorAll("nav ul li a");
 var sections = document.querySelectorAll("section");
 
 function animateClickScroll() {
+	let aboutLink = document.getElementById("home-header-link");
+	aboutLink.onclick = function() {
+		$('html, body').animate({
+        scrollTop: $('#about').offset().top
+    }, 400);
+	};
 	navLinks.forEach(link => {
 		let section = document.querySelector(link.hash);
 		link.onclick = function() {
