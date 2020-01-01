@@ -1,3 +1,7 @@
+$(document).ready(function() {
+   $('#nav').localScroll({duration:800});
+});
+
 // call updatedNavbar on page scroll
 window.onscroll = function() {updateNavbar()};
 
@@ -8,7 +12,7 @@ var navOffset = navbar.offsetTop;
 
 // get nav links
 var navLinks = document.querySelectorAll("nav ul li a");
-// get sections of page
+// get each section of page
 var sections = document.querySelectorAll("section");
 
 // adjusts navbar's stickiness and active links according to user's position on page
