@@ -18,14 +18,14 @@ function animateClickScroll() {
 	aboutLink.onclick = function() {
 		$('html, body').animate({
         scrollTop: $('#about').offset().top
-    }, 400);
+    }, 600);
 	};
 	navLinks.forEach(link => {
 		let section = document.querySelector(link.hash);
 		link.onclick = function() {
 			$('html, body').animate({
         scrollTop: $(section).offset().top
-    }, 400);
+    }, 600);
 		};
 		
 
