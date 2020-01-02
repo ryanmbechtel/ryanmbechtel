@@ -14,12 +14,14 @@ var navLinks = document.querySelectorAll("nav ul li a");
 var sections = document.querySelectorAll("section");
 
 function animateClickScroll() {
+	// add scroll animation from home section button to about section
 	let aboutLink = document.getElementById("home-header-link");
 	aboutLink.onclick = function() {
 		$('html, body').animate({
         scrollTop: $('#about').offset().top
     }, 600);
 	};
+	// add scroll animation from navbar clicks to associated section
 	navLinks.forEach(link => {
 		let section = document.querySelector(link.hash);
 		link.onclick = function() {
@@ -27,11 +29,9 @@ function animateClickScroll() {
         scrollTop: $(section).offset().top
     }, 600);
 		};
-		
-
 	});
-
 }
+
 
 // adjusts navbar's stickiness and active links according to user's position on page
 function updateNavbar() {
