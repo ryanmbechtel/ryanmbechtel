@@ -54,6 +54,7 @@ section {
 
 .home-header-name {
    color: #e6005c;
+   font-weight: 400;
 }
 
 
@@ -63,6 +64,7 @@ section {
   box-sizing: inherit;
   display: inline-block;
   font-size: 13pt;
+  color: #fff;
   transition: all .5s;
   cursor: pointer; 
 }
@@ -71,3 +73,8 @@ section {
     background-color: #04C2C9;
     border-color: #04C2C9; 
  }
+
+.contact-svg {
+   height: 100;
+   width: 100%;
+}

@@ -10,7 +10,6 @@ particlesJS('particles-js',
       },
       "color": {
         "value": ["#d24dff","#668cff","#4dff4d","#80ffe5"]
-        /*["#aa73ff", "#f8c210", "#83d238", "#33b1f8"]*/
       },
       "shape": {
         "type": "polygon",
@@ -86,10 +85,9 @@ particlesJS('particles-js',
         "bubble": {
           "distance": 110,
           "size": 4,
-          /*here*/
           "duration": 0,
           "opacity": 0.3,
-          "speed": 2
+          "speed": 1
         },
         "repulse": {
           "distance": 200
