@@ -82,10 +82,11 @@ section {
 .my-foot {
    color: white;
    background-color: #0e1525;
-   height: 40vh;
+   height: 180px;
    width: 100%;
 }
 
 .foot-text-container {
    vertical-align: middle;
+   padding-top: 50px;
 }
