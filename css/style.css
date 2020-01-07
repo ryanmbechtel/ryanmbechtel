@@ -18,15 +18,13 @@ section {
    background-color: #152037;
 }
 
-.navbar {
+#myNav {
    background-color: #1c2a48;
+   position: fixed;
+   top: 0;
+   width: 100%;
 }
 
-.sticky-nav {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
 
 .active-nav-link {
    color: red !important;
@@ -59,20 +57,20 @@ section {
 
 
 .home-header-button {
-  padding: 10px 20px;
-  border: 2px solid #fff;
-  box-sizing: inherit;
-  display: inline-block;
-  font-size: 13pt;
-  color: #fff;
-  transition: all .5s;
-  cursor: pointer; 
+ padding: 10px 20px;
+ border: 2px solid #fff;
+ box-sizing: inherit;
+ display: inline-block;
+ font-size: 13pt;
+ color: #fff;
+ transition: all .5s;
+ cursor: pointer; 
 }
 
 .home-header-button:hover {
-    background-color: #04C2C9;
-    border-color: #04C2C9; 
- }
+  background-color: #04C2C9;
+  border-color: #04C2C9; 
+}
 
 .projects-svg {
    background-color: #d9d9d9;
