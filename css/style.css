@@ -7,7 +7,7 @@ section {
 }
 
 #about {
-   background-color: #d9d9d9;
+   background-color: #e6e6e6;
 }
 
 #projects {
@@ -75,8 +75,27 @@ section {
     border-color: #039196; 
  }
 
+.section-header {
+   color: #444649;
+   font-weight: 500;
+}
+
+.section-header-underline {
+   background-color: #444649;
+   width: 130px;
+   height: 3px;
+}
+
+.contact-header {
+   color: #f2f2f2;
+}
+
+.contact-header-underline {
+   background-color: #f2f2f2;
+}
+
 .projects-svg {
-   background-color: #d9d9d9;
+   background-color: #e6e6e6;
    height: 100;
    width: 100%;
 }
