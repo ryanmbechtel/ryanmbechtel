@@ -53,8 +53,11 @@ section {
 }
 
 .home-header-name {
-   color: #e6005c;
    font-weight: 400;
+}
+
+.highlight-text {
+   color: #e6005c;
 }
 
 
@@ -108,11 +111,17 @@ section {
 .my-foot {
    color: white;
    background-color: #0e1525;
-   height: 180px;
+   height: 150px;
    width: 100%;
 }
 
 .foot-text-container {
    vertical-align: middle;
-   padding-top: 50px;
+   padding-top: 40px;
+}
+
+.foot-text {
+   color: #fff;
+   font-style: "Roboto";
+   font-size: 16px;
 }
