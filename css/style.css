@@ -7,15 +7,15 @@ section {
 }
 
 #about {
-   background-color: #e6e6e6;
+   background-color: #d9d9d9;
 }
 
 #projects {
-   background-color: red;
+   background-color: #f2f2f2;
 }
 
 #contact {
-   background-color: green;
+   background-color: #0e1525;
 }
 
 .navbar {
@@ -34,7 +34,7 @@ section {
 
 #particles-js {
    height: 100%;
-   width:100%;
+   width: 100%;
    z-index:-10;
 }
 
