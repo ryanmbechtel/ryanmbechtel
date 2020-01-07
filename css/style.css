@@ -67,11 +67,12 @@ section {
   color: #fff;
   transition: all .5s;
   cursor: pointer; 
+  margin-top: 20px;
 }
 
 .home-header-button:hover {
-    background-color: #04C2C9;
-    border-color: #04C2C9; 
+    background-color: #039196;
+    border-color: #039196; 
  }
 
 .projects-svg {
