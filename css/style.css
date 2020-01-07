@@ -15,7 +15,7 @@ section {
 }
 
 #contact {
-   background-color: #0e1525;
+   background-color: #1c2a48;
 }
 
 .navbar {
@@ -77,4 +77,15 @@ section {
 .contact-svg {
    height: 100;
    width: 100%;
+}
+
+.my-foot {
+   color: white;
+   background-color: #0e1525;
+   height: 40vh;
+   width: 100%;
+}
+
+.foot-text-container {
+   vertical-align: middle;
 }
