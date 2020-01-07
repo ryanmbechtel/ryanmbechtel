@@ -33,10 +33,17 @@ function animateClickScroll() {
 }
 
 
-// adjusts active links according to user's position on page
+// adjusts navbar's stickiness and active links according to user's position on page
 function updateNavbar() {
-	// get current position
 	let curPos = window.pageYOffset;
+
+	// make nav stick to top once reached
+  if (curPos >= navOffset) {
+    navbar.classList.add("sticky-nav")
+  } else {
+  	navbar.classList.remove("sticky-nav");
+  }
+
   // set active nav link for each section when user reaches it in page
   navLinks.forEach(link => {
   	let section = document.querySelector(link.hash);
