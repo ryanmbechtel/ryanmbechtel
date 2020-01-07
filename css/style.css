@@ -15,7 +15,7 @@ section {
 }
 
 #contact {
-   background-color: #1c2a48;
+   background-color: #152037;
 }
 
 .navbar {
@@ -73,6 +73,12 @@ section {
     background-color: #04C2C9;
     border-color: #04C2C9; 
  }
+
+.projects-svg {
+   background-color: #d9d9d9;
+   height: 100;
+   width: 100%;
+}
 
 .contact-svg {
    height: 100;
