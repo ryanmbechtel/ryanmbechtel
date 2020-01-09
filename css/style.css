@@ -1,9 +1,6 @@
-section {
-   height: 100%;
-}
-
 #home {
    background-color: #1c2a48;
+   height: 100%;
 }
 
 #about {
@@ -12,10 +9,12 @@ section {
 
 #projects {
    background-color: #f2f2f2;
+   height: 100%;
 }
 
 #contact {
    background-color: #152037;
+   height: 100%;
 }
 
 #myNav {
