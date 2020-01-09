@@ -81,7 +81,8 @@ section {
 
 .section-header {
    color: #444649;
-   font-weight: 500;
+   font-weight: 700;
+   font-size: 45px;
 }
 
 .section-header-underline {
@@ -100,10 +101,10 @@ section {
 
 .img-container {
    position: relative;
-   width: 290px;
+   width: 350px;
 }
 .img-me {
-   width: 290px;
+   width: 350px;
 }
 
 .img-text {
@@ -138,6 +139,12 @@ section {
    -webkit-transition: opacity .3s ease-out;
    -o-transition: opacity .3s ease-out;
    filter: alpha(opacity=50); /* IE8 and earlier */
+}
+
+.img-question {
+   font-size: 28px;
+   font-weight: 500;
+   color: #444649;
 }
 
 .projects-svg {
