@@ -1,3 +1,10 @@
+html, body {
+   width: 100%;
+   height: 100%;
+   margin: 0px;
+   padding: 0px;
+}
+
 #home {
    background-color: #1c2a48;
    height: 100%;
@@ -20,6 +27,7 @@
 #myNav {
    background-color: #1c2a48;
    z-index: 9999;
+   border-bottom: 4px solid #039196;
 }
 
 .sticky-nav {
