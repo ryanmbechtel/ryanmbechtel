@@ -286,3 +286,14 @@ and (max-width: 1024px) {
    stroke-width: 0px;
 }
 }
+
+/* Bootstrap grid adjustments */
+@media screen 
+and (max-width: 768px) {
+   /* about section skill cards */
+   .col-md-3 {
+      width: 65%;
+      margin-left: auto;
+      margin-right: auto;
+   }
+}
