@@ -210,11 +210,10 @@ and (max-width: 1024px) {
 }
 .img-text {
    font-size: 14px;
-   font-weight: 400;
    border-radius: 4px;
 }
 .img-question {
-   font-size: 24px;
+   font-size: 26px;
 }
 .my-foot {
    height: 120px;
@@ -256,12 +255,10 @@ and (max-width: 1024px) {
 }
 .img-text {
    font-size: 12px;
-   font-weight: 300;
    border-radius: 3px;
 }
 .img-question {
-   font-size: 20px;
-   font-weight: 400;
+   font-size: 22px;
 }
 .my-foot {
    height: 90px;
