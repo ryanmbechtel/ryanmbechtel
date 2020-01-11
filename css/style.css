@@ -226,6 +226,13 @@ and (max-width: 1024px) {
 .foot-text {
    font-size: 14px;
 }
+.projects-svg {
+   stroke-width: 0px;
+}
+
+.contact-svg {
+   stroke-width: 0px;
+}
 }
 
 /* phones */
@@ -270,5 +277,12 @@ and (max-width: 1024px) {
 
 .foot-text {
    font-size: 12px;
+}
+.projects-svg {
+   stroke-width: 0px;
+}
+
+.contact-svg {
+   stroke-width: 0px;
 }
 }
