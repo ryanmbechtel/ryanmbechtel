@@ -158,9 +158,9 @@ html, body {
    margin: auto;
 }
 
-.skill-card {
+.skill-card, .skill-list *{
    text-align: center !important;
-   background-color: #f2f2f2 !important;
+   background-color: #c8d3ea !important;
 }
 
 .skill-card-icon {
