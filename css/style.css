@@ -205,8 +205,31 @@ html, body {
 
 .project-card-back {
   transform: rotateY(180deg);
-  background-color: #e9e9e9;
   color: black;
+}
+
+.p1-card-back {
+   background-color: #1fa3cc;
+}
+
+.p2-card-back {
+   background-color: #ff9800;
+}
+
+.p3-card-back {
+   background-color: #418c35;
+}
+
+.p4-card-back {
+   background-color: #ff4949;
+}
+
+.p5-card-back {
+   background-color: #923d9b;
+}
+
+.p6-card-back {
+   background-color: #c6ab35;
 }
 
 .my-foot {
