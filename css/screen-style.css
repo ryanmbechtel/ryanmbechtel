@@ -107,7 +107,7 @@ and (max-width: 1024px) {
 @media screen 
 and (max-width: 576px) {
    /* about section skill cards */
-   .col-sm-3 {
+   .col-md-3 {
       width: 65%;
       margin-left: auto;
       margin-right: auto;

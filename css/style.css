@@ -153,6 +153,20 @@ html, body {
    color: #444649;
 }
 
+.skill-card-row {
+   max-width: 900px;
+   margin: auto;
+}
+
+.skill-card-icon {
+   width: 150;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.col-md-3 {
+}
+
 .projects-svg {
    background-color: #e6e6e6;
    height: 100;
