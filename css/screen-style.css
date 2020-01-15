@@ -32,17 +32,6 @@ and (max-width: 1024px) {
    .img-question {
       font-size: 26px;
    }
-   .my-foot {
-      height: 120px;
-   }
-
-   .foot-text-container {
-      padding-top: 35px;
-   }
-
-   .foot-text {
-      font-size: 14px;
-   }
    .projects-svg {
       stroke-width: 0px;
    }

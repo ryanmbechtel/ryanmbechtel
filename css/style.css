@@ -288,9 +288,39 @@ html, body {
 .my-foot {
    color: #f2f2f2;
    background-color: #0e1525;
-   height: 150px;
+   height: 250px;
    width: 100%;
    border: 0px;
+}
+
+.return-home-btn-container, .return-home-btn {
+   text-align: center;
+}
+
+.return-home-btn {
+   height: 65px;
+   width: 55px;
+   position: relative;
+   top: -30;
+   text-align: center;
+}
+
+.return-home-icon-container {
+   padding: 15px 10px;
+   display: inline-block;
+   background-color: #e6005c;
+   cursor: pointer; 
+   border-radius: 3px;
+   transition: all .5s;
+}
+
+.return-home-icon-container:hover {
+   background-color: #ff3385;
+}
+
+.return-home-icon {
+   width: 35px;
+   position: relative;
 }
 
 .foot-text-container {
