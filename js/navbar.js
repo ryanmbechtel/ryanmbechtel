@@ -7,6 +7,7 @@ window.onscroll = function() {updateNavbar()};
 var navbar = document.getElementById("myNav");
 // get navbar's offset
 var navOffset = navbar.offsetTop;
+console.log(navOffset);
 
 // get nav links
 var navLinks = document.querySelectorAll("nav ul li a");
@@ -36,12 +37,14 @@ function animateClickScroll() {
 // adjusts navbar's stickiness and active links according to user's position on page
 function updateNavbar() {
 	let curPos = window.pageYOffset;
-
+  console.log("curPos = " + curPos);
 	// make nav stick to top once reached
-  if (curPos >= navOffset) {
-    navbar.classList.add("sticky-nav")
+  if (curPos - 1 >= navOffset) {
+    navbar.classList.add("sticky-nav");
+    console.log("ADD sticky");
   } else {
   	navbar.classList.remove("sticky-nav");
+    console.log("REMOVE sticky");
   }
 
   // set active nav link for each section when user reaches it in page
