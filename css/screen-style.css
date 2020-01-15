@@ -108,7 +108,7 @@ and (max-width: 1024px) {
 and (max-width: 768px) {
    /* about section skill cards */
    .col-md-3 {
-      width: 51%;
+      width: 65%;
       margin-left: auto;
       margin-right: auto;
    }
@@ -116,7 +116,7 @@ and (max-width: 768px) {
 
 /* Project card grid adjustments after collapse */
 @media screen 
-and (max-width: 768px) {
+and (max-width: 767px) {
    .project-card {
       height: 400px;
       width: 280px;
