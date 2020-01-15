@@ -105,10 +105,20 @@ and (max-width: 1024px) {
 
 /* About section grid adjustments */
 @media screen 
-and (max-width: 768px) {
+and (max-width: 768px)
+and (min-width: 480px) {
    /* about section skill cards */
    .col-md-3 {
-      width: 65%;
+      width: 51%;
+      margin-left: auto;
+      margin-right: auto;
+   }
+}
+@media screen 
+and (max-width: 479px) {
+   /* about section skill cards */
+   .col-md-3 {
+      width: 80%;
       margin-left: auto;
       margin-right: auto;
    }
