@@ -1,6 +1,4 @@
-/*
-   Main style sheet for Ryan Bechtel's website
-*/
+/* Main style sheet */
 
 /* prevent whacky margins */
 html, body {
@@ -74,20 +72,20 @@ html, body {
 
 
 .home-header-button {
- padding: 10px 20px;
- border: 2px solid #fff;
- box-sizing: inherit;
- display: inline-block;
- font-size: 13pt;
- color: #fff;
- transition: all .5s;
- cursor: pointer; 
- margin-top: 20px;
+   padding: 10px 20px;
+   border: 2px solid #fff;
+   box-sizing: inherit;
+   display: inline-block;
+   font-size: 13pt;
+   color: #ffffff;
+   transition: all .5s;
+   cursor: pointer; 
+   margin-top: 20px;
 }
 
 .home-header-button:hover {
-  background-color: #039196;
-  border-color: #039196; 
+   background-color: #039196;
+   border-color: #039196; 
 }
 
 .section-header {
@@ -194,16 +192,16 @@ html, body {
 }
 
 .project-card {
-  height: 300px;
-  width: 200px;
-  margin-left: 10px;
-  margin-right: 10px;
-  /* 3D effect */
-  perspective: 1000px; /* W3C */
-  -webkit-perspective: 1000px; /* Chrome, Safari */
-  -ms-perspective: 1000px; /* Firefox */
-  -moz-perspective: 1000px; /* IE */
-  -o-perspective: 1000px; /* Opera */
+   height: 300px;
+   width: 200px;
+   margin-left: 10px;
+   margin-right: 10px;
+   /* 3D effect */
+   perspective: 1000px; /* W3C */
+   -webkit-perspective: 1000px; /* Chrome, Safari */
+   -ms-perspective: 1000px; /* Firefox */
+   -moz-perspective: 1000px; /* IE */
+   -o-perspective: 1000px; /* Opera */
 
 }
 .project-card-inner {

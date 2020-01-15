@@ -1,3 +1,4 @@
+/* Screen style sheet for screen width adjustments */
 
 /* tablets */
 @media screen 
@@ -13,42 +14,42 @@ and (max-width: 1024px) {
       width: 300px;
    }
    .home-header-button {
-    padding: 8px 16px;
-    font-size: 12pt;
-    margin-top: 15px;
- }
- .section-header {
-   font-size: 40px;
-}
+      padding: 8px 16px;
+      font-size: 12pt;
+      margin-top: 15px;
+   }
+   .section-header {
+      font-size: 40px;
+   }
 
-.section-header-underline {
-   width: 110px;
-}
-.img-text {
-   font-size: 14px;
-   border-radius: 4px;
-}
-.img-question {
-   font-size: 26px;
-}
-.my-foot {
-   height: 120px;
-}
+   .section-header-underline {
+      width: 110px;
+   }
+   .img-text {
+      font-size: 14px;
+      border-radius: 4px;
+   }
+   .img-question {
+      font-size: 26px;
+   }
+   .my-foot {
+      height: 120px;
+   }
 
-.foot-text-container {
-   padding-top: 35px;
-}
+   .foot-text-container {
+      padding-top: 35px;
+   }
 
-.foot-text {
-   font-size: 14px;
-}
-.projects-svg {
-   stroke-width: 0px;
-}
+   .foot-text {
+      font-size: 14px;
+   }
+   .projects-svg {
+      stroke-width: 0px;
+   }
 
-.contact-svg {
-   stroke-width: 0px;
-}
+   .contact-svg {
+      stroke-width: 0px;
+   }
 }
 
 /* phones */
@@ -63,44 +64,44 @@ and (max-width: 1024px) {
       width: 250px;
    }
    .home-header-button {
-    padding: 6px 12px;
-    font-size: 10pt;
-    margin-top: 10px;
- }
- .section-header {
-   font-weight: 600;
-   font-size: 35px;
-}
+      padding: 6px 12px;
+      font-size: 10pt;
+      margin-top: 10px;
+   }
+   .section-header {
+      font-weight: 600;
+      font-size: 35px;
+   }
 
-.section-header-underline {
-   width: 100px;
-   height: 2px;
-}
-.img-text {
-   font-size: 12px;
-   border-radius: 3px;
-}
-.img-question {
-   font-size: 22px;
-}
-.my-foot {
-   height: 90px;
-}
+   .section-header-underline {
+      width: 100px;
+      height: 2px;
+   }
+   .img-text {
+      font-size: 12px;
+      border-radius: 3px;
+   }
+   .img-question {
+      font-size: 22px;
+   }
+   .my-foot {
+      height: 90px;
+   }
 
-.foot-text-container {
-   padding-top: 25px;
-}
+   .foot-text-container {
+      padding-top: 25px;
+   }
 
-.foot-text {
-   font-size: 12px;
-}
-.projects-svg {
-   stroke-width: 0px;
-}
+   .foot-text {
+      font-size: 12px;
+   }
+   .projects-svg {
+      stroke-width: 0px;
+   }
 
-.contact-svg {
-   stroke-width: 0px;
-}
+   .contact-svg {
+      stroke-width: 0px;
+   }
 }
 
 /* About section grid adjustments */
