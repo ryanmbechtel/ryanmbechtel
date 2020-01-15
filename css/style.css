@@ -16,7 +16,6 @@ html, body {
 
 #projects {
    background-color: #f2f2f2;
-   height: 200%;
 }
 
 #contact {
@@ -171,7 +170,7 @@ html, body {
   margin-left: auto;
   margin-right: auto;
   perspective: 1000px; /* 3D effect */
-  
+
 }
 .project-card-inner {
    height: 100%;
@@ -342,5 +341,14 @@ and (max-width: 576px) {
       width: 65%;
       margin-left: auto;
       margin-right: auto;
+   }
+}
+
+@media screen 
+and (min-width: 768px)
+and (max-width: 1220px) {
+   .project-card {
+      height: 400px;
+      width: 300px;
    }
 }
