@@ -158,7 +158,7 @@ html, body {
    margin: auto;
 }
 
-.skill-card, .skill-list *{
+.skill-card, .skill-list * {
    text-align: center !important;
    background-color: #c8d3ea !important;
 }
@@ -193,7 +193,12 @@ html, body {
   width: 200px;
   margin-left: 10px;
   margin-right: 10px;
-  perspective: 1000px; /* 3D effect */
+  /* 3D effect */
+  perspective: 1000px; /* W3C */
+  -webkit-perspective: 1000px; /* Chrome, Safari */
+  -ms-perspective: 1000px; /* Firefox */
+  -moz-perspective: 1000px; /* IE */
+  -o-perspective: 1000px; /* Opera */
 
 }
 .project-card-inner {
@@ -202,29 +207,55 @@ html, body {
    background-color: #e6e6e6;
    position: relative;
    text-align: center;
+   /* W3C */
    transform-style: preserve-3d;
    transition: transform 0.8s;
+   /* Chrome, Safari */
+   -webkit-transform-style: preserve-3d;
+   -webkit-transition: 0.8s;
+   /* Firefox */
+   -moz-transform-style: preserve-3d;
+   -moz-transition: 0.8s;
+   /* IE9 */
+   -ms-transform-style: preserve-3d;
+   -ms-transition: 0.8s;
+   /* Opera */
+   -o-transform-style: preserve-3d;
+   -o-transition: 0.8s;
+   
 }
 
 .project-card:hover .project-card-inner {
-  transform: rotateY(180deg);
+   transform: rotateY(180deg); /* W3C */
+   -webkit-transform:rotatey(180deg); /* Chrome, Safari */
+   -moz-transform:rotatey(180deg); /* Firefox */
+   -ms-transform:rotatey(180deg); /* IE9 */
+   -o-transform:rotatey(180deg); /* Opera */
 }
 
 .project-card-front, .project-card-back {
    width: 100%;
    height: 100%;
    position: absolute;
-   backface-visibility: hidden;
+   backface-visibility: hidden; /* W3C */
+   -webkit-backface-visibility: hidden; /* Chrome, Safari */
+   -moz-backface-visibility: hidden; /* Firefox */
+   -ms-backface-visibility: hidden; /* IE */
+   -o-backface-visibility: hidden; /* Opera */
 }
 
 .project-card-front {
-  background-color: #f2f2f2;
-  color: black;
+   background-color: #f2f2f2;
+   color: black;
 }
 
 .project-card-back {
-  transform: rotateY(180deg);
-  color: black;
+   color: #1a1a1a;
+   transform: rotateY(180deg);
+   -webkit-transform:rotatey(180deg);
+   -moz-transform:rotatey(180deg);
+   -ms-transform:rotatey(180deg);
+   -o-transform:rotatey(180deg);
 }
 
 .p1-card-back {
