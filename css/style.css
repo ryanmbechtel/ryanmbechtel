@@ -393,6 +393,7 @@ html, body {
 
 .foot-text-container {
    vertical-align: middle;
+   margin: 0;
 }
 
 .foot-text {
