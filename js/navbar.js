@@ -22,6 +22,14 @@ function animateClickScroll() {
         scrollTop: $('#about').offset().top
     }, 600);
 	};
+  // add scroll animation from footer back to home
+  let footLink = document.getElementById("return-home-btn");
+  footLink.onclick = function() {
+    $('html, body').animate({
+        scrollTop: $('#home').offset().top
+    }, 700);
+  };
+
 	// add scroll animation from navbar clicks to associated section
 	navLinks.forEach(link => {
 		let section = document.querySelector(link.hash);

@@ -293,11 +293,11 @@ html, body {
    border: 0px;
 }
 
-.return-home-btn-container, .return-home-btn {
+.return-home-btn-container, #return-home-btn {
    text-align: center;
 }
 
-.return-home-btn {
+#return-home-btn {
    height: 65px;
    width: 55px;
    position: relative;
