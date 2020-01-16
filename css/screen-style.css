@@ -73,13 +73,6 @@ and (max-width: 1024px) {
    .img-question {
       font-size: 22px;
    }
-   .my-foot {
-      height: 90px;
-   }
-
-   .foot-text-container {
-      padding-top: 25px;
-   }
 
    .foot-text {
       font-size: 12px;
