@@ -356,6 +356,7 @@ html, body {
 }
 
 .media-icon {
+   height: 50px;
    position: relative;
 }
 
