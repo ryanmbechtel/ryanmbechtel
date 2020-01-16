@@ -309,7 +309,7 @@ html, body {
    padding: 15px 10px;
    display: inline-block;
    background-color: #e6005c;
-   border-radius: 3px;
+   border-radius: 1px;
    transition: all .5s;
 }
 
@@ -339,7 +339,7 @@ html, body {
 }
 
 .media-btn-container {
-   margin: 20px;
+   margin: 10px;
    display: inline-block;
 }
 
@@ -349,18 +349,32 @@ html, body {
 
 .media-icon-container {
    padding: 5px 5px;
-   background-color: #e6005c;
-   border-radius: 3px;
-   transition: all .5s;
-   border: 2px solid white;
+   background-color: #c8d3ea;
+   border-radius: 10px;
+   transition: all .8s;
+   border: 2px solid #c8d3ea;
 }
 
 .media-icon {
-   height: 50px;
+   height: 40px;
    position: relative;
 }
 
+.icon-li:hover {
+   background-color: #009eed;
+}
 
+.icon-insta:hover {
+   background-color: #dc143c;
+}
+
+.icon-gh:hover {
+   background-color: #dd4b39;
+}
+
+.icon-fb:hover {
+   background-color: #0d77b7;
+}
 
 
 
@@ -375,7 +389,7 @@ html, body {
 }
 
 .foot-text {
-   color: #fff;
+   color: #f2f2f2;
    font-style: "Roboto";
    font-size: 14px;
    margin: 0px;
