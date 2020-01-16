@@ -288,7 +288,6 @@ html, body {
 .my-foot {
    color: #f2f2f2;
    background-color: #0e1525;
-   height: 300px;
    width: 100%;
    border: 0px;
    margin: 0;
@@ -400,6 +399,7 @@ html, body {
    color: #f2f2f2;
    font-style: "Roboto";
    font-size: 14px;
-   padding-top: 150px;
+   padding-top: 120px;
    padding-bottom: 35px;
+   margin: 0;
 }
